@@ -45,6 +45,6 @@ RUN addgroup --system --gid 1001 nodejs && \
 
 USER nextjs
 
-EXPOSE 3000
+EXPOSE 80
 
 CMD ["node", "server.js"]
